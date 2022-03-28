@@ -12,12 +12,12 @@ export default function Navbar() {
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-          crossorigin="anonymous"
+          
         />
       </Head>
       <Script
         src="https://kit.fontawesome.com/ed62d1b56e.js"
-        crossorigin="anonymous"
+        
       ></Script>
       <div>
         <section id="item-1">
@@ -48,7 +48,7 @@ export default function Navbar() {
           <div>
             <ul className={styles.com}>
               <li>
-                <Image src={logo} height={40} width={150} />
+                <Image src={logo} height={40} width={150} alt="Logo" />
               </li>
               <li>
                 <form className="form-inline my-2 my-lg-0">
