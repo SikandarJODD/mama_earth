@@ -1,0 +1,30 @@
+.co {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    background: rgb(212, 66, 76);
+    padding: 0 1%;
+  }
+  .co ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .co ul li {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    list-style: none;
+  }
+  .co ul li a {
+    font-size: 13px;
+  }
+  .co ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+  }
+  /* Section 2 Code*/
+  .com ul li {
+    list-style: none;
+  }
+  
