@@ -26,7 +26,7 @@ export default function Navbar() {
               <li>
                 <a href="">
                   {" "}
-                  Aisa's 1st Brand with MADE SAFE Certified Products
+                  Aisa 1st Brand with MADE SAFE Certified Products
                 </a>
               </li>
               <li>
